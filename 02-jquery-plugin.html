@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Plugin</title>
+<link rel="stylesheet" href="styles/styles-day-11.css">
+</head>
+
+<body>
+<div class="wrapper">
+	<header>
+		<h1>jQuery Plugin</h1>
+	</header>
+	<main>
+		<section>
+			<h1>Extending jQuery with a Plugin</h1>
+			<p>Plugins are additional pre-written scripts written by other developers or yourself that extend the capabilities of jQuery.</p>
+			<p>jQuery plugins are usually attached to an HTML page after the jQuery library but before any custom jQuery scripts.</p>
+			<p>Plugins can do almost anything from creating slideshows to validating forms to extending jQuery's animation capabilities.</p>
+			<h2>Using the Cycle2 jQuery Plugin</h2>
+			<p>The Cycle2 jQuery plugin is a very simple plugin to use, with lots of configuration options. The plugin has excellent documentation. You can download the plugin and read about how to use the Cycle2 plugin at <a href="http://jquery.malsup.com/cycle2/">http://jquery.malsup.com/cycle2/</a>.</p>
+			<p>This plugin can use classes and data attributes for its configuration, meaning you do not have to write any javaScript code to get it to work.</p>
+			
+			<h2>SlideShow Created by the Cycle2 Plugin</h2>
+			
+			<div class="cycle-slideshow" 
+			     data-cycle-prev="#prev"
+                 data-cycle-next="#next">
+				<img src="images/kittens-01.jpg" alt="Kitten.">
+				<img src="images/kittens-02.jpg" alt="Kitten.">
+				<img src="images/kittens-03.jpg" alt="Three kittens.">
+				<img src="images/kittens-04.jpg" alt="Kitten.">
+				<img src="images/kittens-05.jpg" alt="Kitten.">
+				<img src="images/kittens-06.jpg" alt="Four kittens.">
+				<img src="images/kittens-07.jpg" alt="Kitten.">
+			</div>
+			
+			<button id="prev" class="btn-prev">&lt;&lt; Prev</button>
+			<button id="next" class="btn-next">Next &gt;&gt;</button>
+			
+		</section>
+	</main>
+	<footer>&copy; 2017 Anant Barot</footer>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="scripts/jquery.cycle2.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    background-color: grey;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p, li {
+    line-height: 1.4;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wrapper {
+    background-color: white;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #007a1b;
+    color: white;
+    padding: 20px;
+    margin: -20px -20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px 0;
+    min-height: 300px;
+}
+
+section h1:first-child,
+section h2:first-child {
+    margin-top: 0;
+}
+
+footer {
+   border-top: 1px dotted grey;
+   margin: 0 -20px;
+   padding: 20px 20px 0; 
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Form styles */
+.input-group {
+	margin-bottom: 1rem;
+}
+
+.input-group label {
+	display: inline-block;
+	width: 130px;
+}
+
+.error {
+	display: inline-block;
+	margin-left: 8px;
+	color: red;
+	font-style: italic;
+}
+
+/* PHP Form Styles*/
+.form-group {
+	margin-bottom: 1rem;
+}
+
+.form-group-firstname label,
+.form-group-lastname label {
+	display: inline-block;
+	width: 150px;
+}
+
+.form-group-prefix label {
+	margin-right: 1rem;
+}
+
+.form-group-comment label {
+	margin-bottom: 1rem;
+	display: inline-block;
+}
+
+.form-group-comment textarea {
+	display: block;
+	width: 70%;
+	min-height: 150px;
+}
+
+.errors {
+	padding: 20px;
+	border: 3px solid red;
+	background-color: #ECECEC;
+	color: red;
+	margin-bottom: 1rem;
+}
+
+.errors h3:first-child {
+	margin-top: 0;
+}
+
+.errors p:last-child {
+	margin-bottom: 0;
+}
+
+
+/* jQuery demo styles */
+.jquery-demo {
+	display: flex;
+}
+
+.jquery-demo .col {
+	margin-right: 20px;
+	flex: 1;
+}
+
+.jquery-demo .col:last-child {
+	margin-right: 0;
+}
+
+.jquery-demo .box {
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	color: white;
+}
+
+.jquery-demo .btn {
+	margin-top: 20px;
+}
+
+.jquery-demo .box.rounded {
+	border-radius: 50%;
+}
+
+.jquery-demo .box.danger {
+	border: 5px solid red;
+}
+
+/* Cycle2 Slideshow Styles */
+
+.btn-prev {
+	margin-top: 10px;
+}
+
+
+/* Utility Classes */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.box {
+	background-color:#0000FF;
+	color: #FFFFFF;
+	width: 200px;
+	padding: 30px;
+	margin: 15px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 1rem;
+}
+
+pre.code-snippet {
+	background-color: #ECECEC;
+}
+
+
+/* Dark Page Styles  
+
+- These styles are used for the confirm box JS demo page
+
+*/
+
+body.dark {
+	background-color: black;
+}
+
+.dark .wrapper {
+	background-color: black;
+	border: 2px solid white;
+	color: white;
+}
+
+.dark header {
+	background-color: black;
+	border-bottom: 1px solid white;
+}
+
+.dark footer {
+	border-top: 1px dotted white;
+}
+
+
+
